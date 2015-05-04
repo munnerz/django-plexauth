@@ -13,7 +13,7 @@ Configuration
 
 In the settings.py file for your project, ensure you do the following:
 
-Add ```plexauth``` to your INSTALLED_APPS
+Add `plexauth` to your INSTALLED_APPS
 
 Add 
 
