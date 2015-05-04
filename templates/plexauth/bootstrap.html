@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}{{ plex_server_name }} login{% endblock %}</title>
   {% bootstrap_css %}
-  <link href="{% static "my/custom.css" %}" media="all" rel="stylesheet">
+  <link href="{% static "plexauth/custom.css" %}" media="all" rel="stylesheet">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -23,6 +23,7 @@
 </head>
 
 <body>
+  <div class="spacer"></div>
   <div class="container">
     {% block bootstrap3_content %}django-bootstrap3 template content{% endblock %}
   </div>
