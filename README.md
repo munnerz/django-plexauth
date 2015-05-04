@@ -3,6 +3,8 @@ plexauth
 
 This module provides a django authentication backend for authenticating against plex.tv.
 
+After properly setting up, you should be able to authenticate at /auth/login.
+
 Installing
 ----------
 
