@@ -1,7 +1,10 @@
 plexauth
 ========
 
-![Screenshot](https://cloud.githubusercontent.com/assets/203583/7464306/f8cda1f0-f2b9-11e4-99eb-764a2cc69499.png)
+
+
+![Screenshot](https://cloud.githubusercontent.com/assets/203583/7464347/62ecff22-f2ba-11e4-9146-bbd237b2fb93.png)
+
 
 This module provides a django authentication backend for authenticating against plex.tv.
 
