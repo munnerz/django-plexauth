@@ -8,8 +8,18 @@ Installing
 
 Install by placing the plexauth module in your python path.
 
+All requirements can be installed via pip:
+
+```
+pip install requests
+pip install django
+pip install django-bootstrap3
+pip install django-activelink
+```
+
 Requirements
 ------------
+* [requests](https://github.com/kennethreitz/requests) >= 2.7.0
 * [django](https://github.com/django/django) >= 1.8.0
 * [django-bootstrap3](https://github.com/dyve/django-bootstrap3)
 * [django-activelink](https://github.com/j4mie/django-activelink) >= 0.4
