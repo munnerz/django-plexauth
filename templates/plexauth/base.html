@@ -1,0 +1,23 @@
+{% extends 'plexauth/bootstrap.html' %}
+
+{% load url from future %}
+
+{% load bootstrap3 %}
+
+{% block header_message %}
+  <div class="spacer">
+
+  </div>
+{% endblock %}
+
+{% block bootstrap3_content %}
+
+{% block content %}
+{% if user.is_authenticated %}
+    <p>Welcome, {{ user.username }}  <a href="/auth/logout">[logout]</a></p>
+{% else %}
+    <p>Welcome, Guest <a href="/auth/login">[login]</a></p>
+{% endif %}
+{% endblock %}
+
+{% endblock %}
