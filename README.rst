@@ -4,7 +4,7 @@ plexauth
 
 
 
-.. image:: https://cloud.githubusercontent.com/assets/203583/7464347/62ecff22-f2ba-11e4-9146-bbd237b2fb93.png)
+.. image:: https://cloud.githubusercontent.com/assets/203583/7464347/62ecff22-f2ba-11e4-9146-bbd237b2fb93.png
 	:alt: Screenshot
 	:align: center
 
