@@ -39,7 +39,7 @@ Configuration
 
 In the settings.py file for your project, ensure you have the following:
 
-.. code-block:: python
+.. code:: python
 	INSTALLED_APPS = (
 		...
 		'bootstrap3',
@@ -56,7 +56,7 @@ In the settings.py file for your project, ensure you have the following:
 
 In your urls.py file, add the following line
 
-.. code-block:: python
+.. code:: python
 	urlpatterns = patterns('',
 		...
 		url(r'^auth/?', include('plexauth.urls')),
