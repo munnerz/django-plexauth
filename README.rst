@@ -1,6 +1,6 @@
-********
-plexauth
-********
+***************
+django-plexauth
+***************
 
 
 
@@ -17,11 +17,18 @@ After properly setting up, you should be able to authenticate at /auth/login.
 Installing
 ==========
 
+THe quickest way to get installed is through PyPi. Simply run:
+
+.. code-block:: bash
+
+	$ pip install django-plexauth
+
 Install by placing the plexauth module in your python path.
 
 All requirements can be installed via pip:
 
 .. code-block:: bash
+
 	$ pip install django django-bootstrap3 django-activelink requests
 
 
