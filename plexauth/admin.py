@@ -5,7 +5,9 @@ from .models import PlexUser
 
 class PlexUserAdmin(UserAdmin):
     model = PlexUser
-
+    filter_horizontal = []
+    list_filter = []
+    list_display = ('username', 'is_admin')
     fieldsets = (
         (None, {
             'fields': ('username', 'token')

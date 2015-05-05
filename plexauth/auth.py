@@ -45,8 +45,7 @@ class PlexBackend(object):
         user = User(username=username, password='')
         user.token = valid
         if username in settings.PLEX_ADMIN_USERS:
-          user.is_staff = True
-          user.is_superuser = True
+          user.is_admin = True
         user.save()
       return user
 
