@@ -32,4 +32,10 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
+    install_requires=[
+        'requests',
+        'django-bootstrap3',
+        'django-activelink',
+    # more dependencies
+    ],
 )
