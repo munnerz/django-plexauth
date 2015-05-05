@@ -17,7 +17,7 @@ After properly setting up, you should be able to authenticate at /auth/login.
 Installing
 ==========
 
-THe quickest way to get installed is through PyPi. Simply run:
+The quickest way to get installed is through PyPi. Simply run:
 
 .. code-block:: bash
 
